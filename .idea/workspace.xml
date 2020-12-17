@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43d3328f-8498-4a71-a97a-2df19053abdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Authorization/app/App.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authorization/db/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authorization/db/initDB.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authorization/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authorization/utils/file.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authorization/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Authorization/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
