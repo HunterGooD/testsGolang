@@ -9,14 +9,17 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+// App главная структура прложения
 type App struct {
 	db *sql.DB
 }
 
+// NewApp конструктор структуры App
 func NewApp() *App {
 	return &App{}
 }
 
+// Init инициализация прилложения и БД
 func (a *App) Init(dbname string) {
 	var (
 		Db  *sql.DB
@@ -35,6 +38,7 @@ func (a *App) Init(dbname string) {
 	a.db = Db
 }
 
+// Start стартует приложение
 func (a *App) Start(addr string) {
 	server := gin.Default()
 	server.POST("/signup", a.signUp)
